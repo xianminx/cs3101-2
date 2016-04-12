@@ -13,6 +13,6 @@ server.pid
 *.eml
 /dist/
 .cache
-/project
-/target
+project/
+target/
 
