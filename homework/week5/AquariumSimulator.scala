@@ -125,7 +125,7 @@ abstract class BaseFish(locX: Int,locY: Int) extends LifeForm(locX, locY) {
   def eat(other : AquariumElement) : Boolean = false
 }
 
-class Fish(locX: Int,locY: Int size ) extends BaseFish(locX, locY) {
+class Fish(locX: Int,locY: Int) extends BaseFish(locX, locY) {
   val symbol = 'f'
   def move = {
     val moves = List('E, 'S, 'W, 'N)
